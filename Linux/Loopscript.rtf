@@ -1,0 +1,20 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2638
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww51000\viewh28800\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 #!/bin/bash\
+\
+states=('NewYork' 'California' 'Florida' 'Texas' 'Michigan')\
+\
+for state in $\{states[@]\}\
+do \
+	if [ $state = 'Florida' ]; then\
+	echo "$state is the best state"\
+	else\
+	echo "$state is not the best state"\
+	fi\
+done\
+}
